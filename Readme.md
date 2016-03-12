@@ -1,6 +1,6 @@
 # Align
 
-Align one element to another with specified position.
+Align one element to another with specified position and offset.
 
 ## Install
 
@@ -17,6 +17,7 @@ align(yellow, blue, 'bl-tl')
 
 ## API
 
-### align(fromEl, toEl, position)
+### align(fromEl, toEl, [position], [offset])
 
-position should be `[pos]-[pos]`, pos could be 'tl', 'tc', 'tr', 'bl', 'bc', 'br', 'lc', 'rc'
+* position should be `[pos]-[pos]`, pos could be 'tl', 'tc', 'tr', 'bl', 'bc', 'br', 'lc', 'rc'
+* offset could contain x and y as number in pixel.
