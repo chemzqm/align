@@ -2,6 +2,10 @@
 
 Align one element to another with specified position.
 
+## Install
+
+    npm install component-align
+
 ## Example
 
 ``` js
