@@ -62,7 +62,7 @@ gulp.task('webpack:test', function (callback) {
     'stack-source-map/register.js',
     'webpack-dev-server/client?http://localhost:' + port,
     'webpack/hot/dev-server',
-    'mocha-notify!' + testIndex
+    'mocha!' + testIndex
   ]
 
   var config = Object.create(myConfig)
