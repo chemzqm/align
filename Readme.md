@@ -19,4 +19,4 @@ align(yellow, blue, 'bl-tl')
 
 ### align(fromEl, toEl, position)
 
-position could be 'tl', 'tc', 'tr', 'bl', 'bc', 'br', 'lc', 'rc'
+position should be `[pos]-[pos]`, pos could be 'tl', 'tc', 'tr', 'bl', 'bc', 'br', 'lc', 'rc'
