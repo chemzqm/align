@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>align to</title>
+    <link rel="stylesheet" href="./common.css" type="text/css" media="all" />
+    <style type="text/css" media="screen">
+      body {
+        padding: 80px;
+      }
+      #demo {
+        width: 200px;
+        height: 200px;
+        background-color: #5CB85C;
+        position: absolute;
+        top: 150px;
+        left: 100px;
+      }
+      #menu {
+        background-color: deepskyblue;
+        position: absolute;
+      }
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <select name="from" id="from">
+      <option value="tr">tr</option>
+      <option value="tl" selected>tl</option>
+      <option value="tc">tc</option>
+      <option value="br">br</option>
+      <option value="bl">bl</option>
+      <option value="bc">bc</option>
+      <option value="lc">lc</option>
+      <option value="rc">rc</option>
+    </select>
+    <select name="to" id="to">
+      <option value="tr">tr</option>
+      <option value="tl" selected>tl</option>
+      <option value="tc">tc</option>
+      <option value="br">br</option>
+      <option value="bl">bl</option>
+      <option value="bc">bc</option>
+      <option value="lc">lc</option>
+      <option value="rc">rc</option>
+    </select>
+    <div id="demo">
+    </div>
+    <div id="menu">
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </div>
+    <script src="./bundle.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
